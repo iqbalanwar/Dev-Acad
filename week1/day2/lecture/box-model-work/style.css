@@ -1,0 +1,22 @@
+.inline, .block, .inline-block {
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.inline {
+    display: inline;
+    /*border: 2px solid red;*/
+    margin: 20px;
+}
+
+.block {
+    display: block;
+    /*border: 2px solid blue;*/
+    margin: 30px;
+}
+
+.inline-block {
+    display: inline-block;
+    /*border: 2px solid green;*/
+    margin: 10px;
+}

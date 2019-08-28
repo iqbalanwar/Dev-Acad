@@ -1,0 +1,78 @@
+/*
+div {
+    height: 100px;
+}
+
+.first {
+    border: 1px solid blue;
+}
+
+.second {
+    border: 1px solid red;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+
+figure {
+    width: 50%;
+    margin: auto;
+    position: relative
+}
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+body {
+    margin: 0;
+    height: 150vh;
+}
+.container {
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 0px;
+}
+nav {
+    background: #eee;
+    padding: 40px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    size: 20px;
+    color: #222;
+    padding: 0 20px;
+}*/
+
+* { /*The '*' targets everything*/
+    box-sizing: border-box;
+}
+.box {
+    width: 150px;
+    height: 150px;
+}
+#box-1 {
+    background-color: #E16F20;
+    position: relative;
+    z-index: 1 !important; /*important takes precedence*/
+}
+#box-2 {
+    background-color: #FEC84E;
+    position: relative;
+    top: -50px;
+    left: 50px;
+    z-index: 2;
+}
+#box-3 {
+    background-color: #00465D;
+    position: relative;
+    top: -100px;
+    z-index: 3;
+}
